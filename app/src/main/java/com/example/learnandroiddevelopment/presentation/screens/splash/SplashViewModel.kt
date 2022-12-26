@@ -23,5 +23,5 @@ class SplashViewModel @Inject constructor(
                 useCases.readOnBoardingUseCase().stateIn(viewModelScope).value
         }
     }
-    //splashViewModel
+    //splashViewModelModel
 }
